@@ -1,0 +1,13 @@
+Q#2 : Given the Firefox profile of a suspect, answer the following:
+The Firefox profile can be downloaded from https://github.com/vonderchild/digital-forensics-lab/blob/main/Lab 2/files/Firefox.zip
+
+   (i)    What’s the username and password stored in the saved logins?
+          username : hackerman
+          password : sup3rs3cur3p4ssw0rd
+
+   (ii)   What’s the most frequently visited website?
+          amazon
+   
+   (iii)  What’s the name of the file downloaded by the suspect?
+          file:///C:/Users/w/Downloads/python-3.11.1-amd64(1).exe
+
