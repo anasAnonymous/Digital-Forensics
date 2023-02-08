@@ -1,14 +1,14 @@
-Given the registry file of a system that was compromised, answer the following:
+Q#1 : Given the registry file of a system that was compromised, answer the following:
 
-What’s the mouse double-click speed?
-500
-
-
-What’s the most recent typed path accessed as recorded in the registry?
-C:\Windows\System32\calc.exe
-(Comment : https://forensafe.com/blogs/typedpaths.html ->> to check path)
+    (i) What’s the mouse double-click speed?
+        500
 
 
-What’s the new value added to the registry by the malware in order to establish persistence over the system?
+    (ii) What’s the most recent typed path accessed as recorded in the registry?
+         C:\Windows\System32\calc.exe
+         Software/Microsoft/Windows/CurrentVersion/Explorer/TypedPath
 
+
+    (iii) What’s the new value added to the registry by the malware in order to establish persistence over the system?
+          Software/Microsoft/Windows/CurrentVersion/Run/Malware
 
