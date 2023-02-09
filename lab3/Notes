@@ -5,3 +5,7 @@ They all are different.
 HASHING : Hash function
 ENCRYPTION : Key
 ENCODIG : 
+
+
+MACROS : used to write/inject code in word/powerpoint/sheet files. 
+Extensions have 'm' at the end. For example # .docm , .pptm , .xlsm etc.
