@@ -1,0 +1,4 @@
+Q#1  : A phishing attack has been reported in your organization, where an employee received a malicious Word document in an email that appeared to come from a trusted source. The employee opened the document which had macros in it, resulting in the attacker gaining access to the employee’s computer. A secret which will reveal the attacker's identity, is embedded inside the macro code. You are tasked with analyzing the macro code and extracting the embedded secret. The secret has the format flag{s0me_str1ng}.
+FILE : The Word document can be downloaded from https://github.com/vonderchild/digital-forensics-lab/blob/main/Lab 3/files/YearlyBonus.docm.
+
+ANSWER : flag{such_m4cr0_much_w0w}
