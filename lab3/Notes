@@ -13,3 +13,6 @@ Extensions have 'm' at the end. For example # .docm , .pptm , .xlsm etc.
 
 IOC : An Indicator of Compromise (IOC), on the other hand, is a piece of forensics data directly related to a given threat, that can be used to identify the presence of a threat in a system or a network. IOCs can be a combination of certain artifacts or a single artifact.
 IOCs and Artifacts - What's the difference?
+
+
+task 2 : exiftool to find name.
