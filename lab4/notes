@@ -4,3 +4,23 @@ etc shadow : contains password (Sudoers can access only)
 
 PathTraversal and LocalFileInclusion are different. Path traversal only reads file and LFI can execute command.
 PathTraversal can be detected using WebAppFirewalls (WAF)
+
+
+URL (uniform resource locator)
+URI (uniform resource identifier)
+
+https://github.com/vonderchild/digital-forensics-lab/tree/main/Lab%204
+->this complete is a URL, but the part after "...com" is URI.
+
+access.log _> contains get/post request 
+modsec_audit.log _> contains firewall logs 
+other_vhosts_access.log -> contains subdomain logs 
+
+First thing attacker access is "etc/passwd"
+
+rm -rf / : remove all data (DO NOT TRY IT)
+
+PARANOIA : used to set a level. If that level matches, it will set alarm.
+
+(" OR 1=1 #) CAUTION > it will remove all data of the database 
+
