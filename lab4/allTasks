@@ -1,5 +1,8 @@
 1 : 192.168.0.101 or 106?
 2 : SQLi (explanation to be added) 
 3 : Firefox/102.0 (commnd used : cat modsec_audit.log | grep "Mozilla" OR cat access.log | grep "Firefox")
-4 : sqlmap (?)
+4 : sqlmap. It automates the process of detecting and exploiting sql injection flaws.
 5 : /etc/shadow (command used : cat error.log | grep "denied")
+
+
+8 : flag{h1pp1ty_h0pp1ty_y0ur_w
