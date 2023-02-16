@@ -18,6 +18,9 @@ other_vhosts_access.log -> contains subdomain logs
 
 First thing attacker access is "etc/passwd"
 
+etc/passwd -> contains USERS DETAILS (used to contain encrypted passwords too, but now pwd have been moved to etc/shadow file as it can be accesed by SUDOERS only)
+etc/shadow -> contains PASSWORD DETAILS
+
 rm -rf / : remove all data (DO NOT TRY IT)
 
 PARANOIA : used to set a level. If that level matches, it will set alarm.
