@@ -1,5 +1,5 @@
 1 : 192.168.0.101 or 106?
-2 :  
+2 : SQLi (explanation to be added) 
 3 : Firefox/102.0 (commnd used : cat modsec_audit.log | grep "Mozilla" OR cat access.log | grep "Firefox")
-4 : 
+4 : sqlmap (?)
 5 : /etc/shadow (command used : cat error.log | grep "denied")
