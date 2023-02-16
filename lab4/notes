@@ -1,1 +1,6 @@
+Wireshark: Analyze traffic
+etc passwd : contains users
+etc shadow : contains password (Sudoers can access only)
 
+PathTraversal and LocalFileInclusion are different. Path traversal only reads file and LFI can execute command.
+PathTraversal can be detected using WebAppFirewalls (WAF)
