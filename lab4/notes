@@ -23,7 +23,9 @@ etc/shadow -> contains PASSWORD DETAILS
 
 rm -rf / : remove all data (DO NOT TRY IT)
 
-PARANOIA : used to set a level. If that level matches, it will set alarm.
+PARANOIA level : used to set a level. If that level matches, it will set alarm.
 
 (" OR 1=1 #) CAUTION > it will remove all data of the database 
+OR should not be used as it will be TRUE and can execute last command. (If the last cmd was DLT, then boom)
+That's why we should use AND
 
