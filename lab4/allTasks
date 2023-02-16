@@ -1,3 +1,5 @@
-1 : 192.168.0.106
-2 : 
-3 : 
+1 : 192.168.0.101 or 106?
+2 :  
+3 : Firefox/102.0 (commnd used : cat modsec_audit.log | grep "Mozilla")
+4 : 
+5 : /etc/shadow (command used : cat error.log | grep "denied")
