@@ -1,6 +1,6 @@
 Q#2  : A mole within the government has leaked top secret information to a spy. The mole, aware of spycraft techniques, used steganography to hide the information within an image, which he then slipped to his handler. The spy received the image and pasted it into a PowerPoint document, covering it with multiple random images to conceal it. One of our spies has gained access to the enemy spy's computer and recovered the PowerPoint document. Your mission is to extract the first image, extract the top secret information as well as the name and location of his source inside the government.
 FILE : The PowerPoint document can be downloaded from https://github.com/vonderchild/digital-forensics-lab/blob/main/Lab 3/files/Presentation.pptx
 
-ANSWER : I have obtained information regarding a top secret mission. The details are highly classified and must not fall into the wrong hands. Proceed with caution and use extreme discretion in all communications regarding this matter.
-MOLE : Michael Scott
-LOCATION : 
+ANSWER   : I have obtained information regarding a top secret mission. The details are highly classified and must not fall into the wrong hands. Proceed with caution and use extreme discretion in all communications regarding this matter.
+MOLE     : Michael Scott
+LOCATION : Xinyi, Xuzhou, Jiangsu, China.
