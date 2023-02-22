@@ -5,14 +5,20 @@ What IP address does the attack seem to be originating from?
 
 # Task 2
 Which vulnerabilities do you think are being exploited, and what evidence do you have to support your findings?
+    
     SQLi
 
 # Task 3
 How can we determine what web browser the attacker is using?
 
+    We can chech in logs that attacker is using "Firefox 102.0" web browser.
+    
 # Task 4
 Did the attacker use any automated tools during the attack? If so, can you identify the name of the tool and its purpose?
-
+    
+    SQLmap
+    It is used to detect and exploite sql injection flaws automatically.
+    
 # Task 5
 Which file was the attacker trying to access but couldn't due to limited server access?
 
