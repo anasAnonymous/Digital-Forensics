@@ -6,7 +6,10 @@ What IP address does the attack seem to be originating from?
 # Task 2
 Which vulnerabilities do you think are being exploited, and what evidence do you have to support your findings?
     
-    SQLi
+    Path Traversal. 
+    
+    Attacker got access to "/etc/passwd" and "important_note.txt" files and even tried to gain access to 
+    "/etc/shadow" but he could not due to limited access.
 
 # Task 3
 How can we determine what web browser the attacker is using?
@@ -38,6 +41,7 @@ An important secret was compromised. Can you figure it out? Hint: The secret you
 The attacker left a message for the server administrator. Find out what the message said, and also mention how you were able to find it.
 
     The message : flag{h1pp1ty_h0pp1ty_y0ur_w3bs1t3_1s_n0w_my_pr0p3rty!}
+    
     I checked modsec_audit.log and these I saw a sentence "Gentlemen......" and 
     a string was concatenated through ASCII codes. I converted from ASCII codes 
     to text, and found a ciphertext. I took help from cyberchef and I got a flag 
@@ -49,6 +53,8 @@ The attacker left a message for the server administrator. Find out what the mess
 # Task 9
 What were some indicators that confirmed that an attack had taken place? What were your key takeaways from this attack?
 
+    
+    
 # Task 10
 Based on this attack, what indicators of compromise can be used to detect future attacks?
     
