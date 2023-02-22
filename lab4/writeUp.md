@@ -17,10 +17,13 @@ How can we determine what web browser the attacker is using?
 Did the attacker use any automated tools during the attack? If so, can you identify the name of the tool and its purpose?
     
     SQLmap
-    It is used to detect and exploite sql injection flaws automatically.
+    It is used to detect and exploit SQL injection flaws automatically.
     
 # Task 5
 Which file was the attacker trying to access but couldn't due to limited server access?
+    
+    /etc/shadow![flagTask3_lab2](https://user-images.githubusercontent.com/123714177/220711990-439f5a80-f965-46a4-8254-c4490ae216a2.png)
+
 
 # Task 6
 Did the attacker gain access to any confidential data? If yes, how much data was compromised?
