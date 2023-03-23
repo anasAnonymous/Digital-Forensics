@@ -29,14 +29,15 @@ The attacker is trying to start a shell session which spawn new shell process th
 
 
 # 8:  The attacker read a file from root's home directory. What was in that file?
-File Name is : "groot.txt"
+File Name is : "gr00t.txt"
 Content in the file : "Congrats on getting here. But that's not it, the real test starts now! ;)
 
 Btw, here's your flag for this stage: flag{1_4m_gr00000t!}"
 
 
 # 9:  The attacker downloaded a file inside root's home directory. What's the purpose of that file?
-
+Downloaded file : backdoor.py
+The program first asks for the username and password from the user as inputs, and upon successful login, it then asks for a message. The message is passed to a function which decrypts the message using a key "super_secret_key" and then the decrypted message is executed as a command.
 
 
 # 10: What information was transmitted through the attacker's covertly established channel of communication?
