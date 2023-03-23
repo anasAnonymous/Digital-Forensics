@@ -1,5 +1,8 @@
 # 1:  What are the different protocols present in the captured traffic file?
-
+- ICMP
+- TCP
+- FTP
+- HTTP
 
 # 2:  It appears that the attacker is attempting to brute force the user's FTP password. Can you find any evidence of a correct password, and if so, what is it?
 PASS batman
