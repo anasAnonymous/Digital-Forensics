@@ -25,11 +25,14 @@ Payload : backdoor.py
 
 
 # 7:  After gaining access to the system, what does the attacker seem to be doing?
-
+The attacker is trying to start a shell session which spawn new shell process that's bin/bash.
 
 
 # 8:  The attacker read a file from root's home directory. What was in that file?
+File Name is : "groot.txt"
+Content in the file : "Congrats on getting here. But that's not it, the real test starts now! ;)
 
+Btw, here's your flag for this stage: flag{1_4m_gr00000t!}"
 
 
 # 9:  The attacker downloaded a file inside root's home directory. What's the purpose of that file?
