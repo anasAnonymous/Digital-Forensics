@@ -41,4 +41,5 @@ The program first asks for the username and password from the user as inputs, an
 
 
 # 10: What information was transmitted through the attacker's covertly established channel of communication?
-root username
+flag{c0ngrats_1f_y0u_m4d3_1t_t1ll_h3r3_ch4mp} 
+(The feeeelingggggggg <3333)
