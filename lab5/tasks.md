@@ -28,7 +28,7 @@ wget https://raw.githubusercontent.com/vonderchild/digital-forensics-lab/main/La
 
 # 7:  After gaining access to the system, what does the attacker seem to be doing?
 The attacker is trying to start a shell session which spawn new shell process that's bin/bash.
-
+python3 -c "import pty; pty.spawn('/bin/bash');"
 
 # 8:  The attacker read a file from root's home directory. What was in that file?
 File Name is : "gr00t.txt"
