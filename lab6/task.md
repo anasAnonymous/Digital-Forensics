@@ -8,7 +8,7 @@ SHA1 : c61dce75ba83f186471297e2e0568ddd0cefe022
 MFT record number : 40 (40960)
 
 ##  Q#3 : Can you determine the parent directory of the file named $Txf? You can use either analyzeMFT or MFTECmd to inspect the contents of the $MFT file to answer this question.
-
+.\$Extend\$RmMetadata
 
 
 ##  Q#4 : The meme.jpeg image was originally downloaded from a twitter URL. Can you use MFTECmd to determine the original URL?
