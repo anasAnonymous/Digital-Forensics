@@ -13,4 +13,7 @@ The acquired memory is normally referred to as a memory dump, and can be particu
     DumpIt — a light-weight command-line utility for Windows.
     FTK Imager — a popular image forensics tool.
     Redline — a memory analysis tool developed by FireEye.
+    
+    
+    bulb To acquire a memory image from offline Windows machines, we can extract it from %SystemDrive%/hiberfil.sys, which contains a compressed memory image from the previous boot that is normally kept to provide faster boot-up times.
 
