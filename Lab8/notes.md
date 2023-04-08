@@ -1,1 +1,16 @@
-Memory forensics is a crucial subfield in digital forensics, which involves acquisition and analysis of a computer's volatile memory or, in other words, the computer's RAM. The information stored in a computer's RAM can provide valuable insights into the state the system at the time of acquisition. The acquired memory is normally referred to as a memory dump, and can be particularly useful in identifying running processes, user credentials, network connections, registry keys, encryption keys, browser history, clipboard contents, and other valuable information.
+Memory forensics involves acquisition and analysis of a computer's volatile memory (computer's RAM). 
+The acquired memory is normally referred to as a memory dump, and can be particularly useful in identifying 
+- Running processes
+- User credentials
+- Network connections
+- Registry keys
+- Encryption keys
+- Browser history
+- Clipboard contents, and other valuable information.
+
+## Tools to acquire Memory Dump
+
+    DumpIt — a light-weight command-line utility for Windows.
+    FTK Imager — a popular image forensics tool.
+    Redline — a memory analysis tool developed by FireEye.
+
