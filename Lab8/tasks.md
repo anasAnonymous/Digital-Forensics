@@ -46,5 +46,5 @@ I used cyberchef to deccode the string and found the flag.
 
 
 ##  Flag 5 :
-
+The hint says that it may be drawn using MSPaint. So, I tried searching for the word "paint" in the help section lol. Of course I could not find anything. Then, I 
 
