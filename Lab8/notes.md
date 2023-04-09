@@ -20,7 +20,7 @@ The acquired memory is normally referred to as a memory dump, and can be particu
     %SystemDrive%/hiberfil.sys
  which contains a compressed memory image from the previous boot that is normally kept to provide faster boot-up times.
 
-![clip](https://user-images.githubusercontent.com/123714177/230758658-5bc7286d-376c-4cf4-919a-e9f6d23955b5.png)
+
 
 ## TO BE EDITED
 DumpIt to collect a memory dump file for analysis, which can be downloaded from https://raw.githubusercontent.com/thimbleweed/All-In-USB/master/utilities/DumpIt/DumpIt.exe.
