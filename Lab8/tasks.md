@@ -20,6 +20,22 @@ As the hint suggesed that it may be copied in the clipboard. So, I tried "clipbo
 ![clip](https://user-images.githubusercontent.com/123714177/230758658-5bc7286d-376c-4cf4-919a-e9f6d23955b5.png)
 
 
-## Flag 3 :
+##  Flag 2 :
+For this flag, we have to check the browser history. I skim the flag options to find any relatable flag but I could not find as there were a lot of options. Then, I tried grep command and search for the string "history" and fortunately found "iehistory" flag.
+![history](https://user-images.githubusercontent.com/123714177/230760222-5f2bc402-1f0b-4e7b-b6a2-b1fac7428afc.png)
+
+
+
+##  Flag 3 :
 Again, it was hinted to check environment variables. So, I used "envars" flag and found the flag.
 ![envars](https://user-images.githubusercontent.com/123714177/230759100-1aa7108e-e25e-411a-b8e0-d286cf25949e.png)
+
+
+##  Flag 4 :
+We have to find the executed command. I tried "cmdscan" flag and I found a base64 encoded string.
+![cmd](https://user-images.githubusercontent.com/123714177/230759424-4f132883-f6e9-40b2-9d67-37ed1c4a4ab5.png)
+
+I used cyberchef to deccode the string and found the flag.
+![cmdCyberChef](https://user-images.githubusercontent.com/123714177/230759305-c7f1db7f-15df-47d4-a0ff-9dcf34631b18.png)
+
+
