@@ -49,5 +49,6 @@ I used cyberchef to deccode the string and found the flag.
 The hint says that it may be drawn using MSPaint. So, I tried searching for the word "paint" in the help section lol. Of course I could not find anything. Then, I search for another words like "MS" and "objects" and I found an option to find file objects using "filescan" flag.
 ![filescan](https://user-images.githubusercontent.com/123714177/230768379-5d6a9629-593e-4bdc-bdfe-13fdee2422ac.png)
 
-
+Then, I used "filescan" and grep command to search for the word "paint" and found these three files.
+![paintFiles](https://user-images.githubusercontent.com/123714177/230768504-c83caa5e-ca99-419e-a7a0-eb22eab24569.png)
 
