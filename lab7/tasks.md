@@ -11,12 +11,11 @@ flag{sup3r_s1mpl3_x0r}
 I opened the task in clutter. There was a prompt "Enter the first magic number" and "hmm" function was called.
 ![t2main](https://user-images.githubusercontent.com/123714177/230893587-fba55857-6582-4b52-a952-0fb4345c21a5.png)
 
-Then, I went to analyze "hmm" function. There were if conditions which were validating the input and upon giving the correct input, it was asking for the next magic number. Correct input for  
-1st magic number = 0x17(hex)  = 23(dec)
+Then, I went to analyze "hmm" function. There were if conditions which were validating the inputs and upon giving the correct input, it was asking for the next magic number. 
 
-2nd magic number = 0x539(hex) = 1337(dec)
-
-
+##  Correct inputs :
+1st magic number = 0x17(hex)  = `23(dec)`  
+2nd magic number = 0x539(hex) = `1337(dec)`  
 3rd magic number = 0xfc(hex)  = 252(dec)
 ![t2hmm](https://user-images.githubusercontent.com/123714177/230894783-45eedfbb-62b9-45a2-b152-4686f176b411.png)
 
