@@ -1,6 +1,9 @@
 ##  Task (1)
 flag{s0m3_susp1c10us_str1ng}
 
+![t1cttr](https://user-images.githubusercontent.com/123714177/230892539-9dbcbedc-8c28-41cc-b870-1bb4a7cc47b5.png)
+![t1cbrchf](https://user-images.githubusercontent.com/123714177/230892565-acebcd9f-5717-4923-99ea-c6b811af9caa.png)
+
 
 ##  Task (2)
 flag{sup3r_s1mpl3_x0r}
