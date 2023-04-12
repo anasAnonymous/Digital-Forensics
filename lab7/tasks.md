@@ -30,3 +30,17 @@ Then, I run the task2 in terminal and upon entering correct inputs, got the flag
 
 ##  Task (4)
 `flag{4_m3d10cr3_m4lw4r3_ch4ll3nge}`
+Here, we have a python file which has some variables. I tried decoding hex values assigned to them but could not find anything useful. But when I run the code, the program was asking for a password. I analyzed the code and found out that the variable `a` was printing the `"enter password"` prompt. So, I edited the code and print he varibale `a`.
+![t4pyfile](https://user-images.githubusercontent.com/123714177/231499366-4c6b0c09-9757-457c-9d68-0bdd27fb303a.png)
+
+
+Then, I run the code and this was the output. 
+![t4printA](https://user-images.githubusercontent.com/123714177/231500091-b0b9784f-b49d-471e-a467-878a40dfd004.png)
+
+
+I copied the first hex string I found and decoded using `cyberchef` and I got a `key`.
+![t4cbrchf](https://user-images.githubusercontent.com/123714177/231500713-a39d74f0-9395-46dc-9621-29ec4041e296.png)
+
+
+I entered the key as a password and found the `flag`.
+![t4flag](https://user-images.githubusercontent.com/123714177/231501752-95e110a2-4aa5-4c7e-8a45-52f6498219bd.png)
