@@ -2,7 +2,9 @@
 `flag{s0m3_susp1c10us_str1ng}`
 
 ![t1cttr](https://user-images.githubusercontent.com/123714177/230892539-9dbcbedc-8c28-41cc-b870-1bb4a7cc47b5.png)
-![t1cbrchf](https://user-images.githubusercontent.com/123714177/230892565-acebcd9f-5717-4923-99ea-c6b811af9caa.png)
+![t1cbrchf](https://user-images.githubusercontent.com/123714177/230892565-acebcd9f-5717-4923-99ea-c6b811af9caa.png)  
+
+
 
 
 ##  Task (2)
@@ -20,7 +22,8 @@ Then, I went to analyze `"hmm" function`. There were if conditions which were va
 ![t2hmm](https://user-images.githubusercontent.com/123714177/230894783-45eedfbb-62b9-45a2-b152-4686f176b411.png)
 
 Then, I run the task2 in terminal and upon entering correct inputs, got the flag.
-![t2flag](https://user-images.githubusercontent.com/123714177/230895009-00a42e74-b3ad-456d-a928-ddd8d31c5615.png)
+![t2flag](https://user-images.githubusercontent.com/123714177/230895009-00a42e74-b3ad-456d-a928-ddd8d31c5615.png)  
+
 
 
 
@@ -28,14 +31,17 @@ Then, I run the task2 in terminal and upon entering correct inputs, got the flag
 `"flag{r3v3rs3_3ng1n33r1ng_101}"`  
 
 
-I opened this task using `Cutter` to analyze. There was a function `do_shenanigans();` in the main function. I navigated to this function and found some variables with hex values assigned. I decoded and this was a set of characters `a-z`, `{}` and a `-`.
+I opened this task using `Cutter` to analyze. There was a function `do_shenanigans();` in the main function. I navigated to this function and found some variables with hex values assigned. I decoded and this was a set of characters `a-z`, `{}` and a `_`.
 ![t3set](https://user-images.githubusercontent.com/123714177/231559477-ce1db358-e962-458d-8c39-3ef298011b1d.png)
 
 
 There were some more variables with hex values assigned. I decoded them and used as indices to create a string which was the `flag`.
 ![t3indices](https://user-images.githubusercontent.com/123714177/231559517-3f852dc4-e0bd-4f3d-8245-17be91ca1d78.png)
 
-I had to increment indices to get the correct flag.
+I had to increment indices to get the correct flag.  
+
+
+
 
 ##  Task (4)
 `flag{4_m3d10cr3_m4lw4r3_ch4ll3nge}`
