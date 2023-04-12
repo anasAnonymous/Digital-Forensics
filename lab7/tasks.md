@@ -25,8 +25,17 @@ Then, I run the task2 in terminal and upon entering correct inputs, got the flag
 
 
 ##  Task (3)
-`"flag{r3v3rs3_3ng1n33r1ng_101}"`
+`"flag{r3v3rs3_3ng1n33r1ng_101}"`  
 
+
+I opened this task using `Cutter` to analyze. There was a function `do_shenanigans();` in the main function. I navigated to this function and found some variables with hex values assigned. I decoded and this was a set of characters `a-z`, `{}` and a `-`.
+![t3set](https://user-images.githubusercontent.com/123714177/231559477-ce1db358-e962-458d-8c39-3ef298011b1d.png)
+
+
+There were some more variables with hex values assigned. I decoded them and used as indices to create a string which was the `flag`.
+![t3indices](https://user-images.githubusercontent.com/123714177/231559517-3f852dc4-e0bd-4f3d-8245-17be91ca1d78.png)
+
+I had to increment indices to get the correct flag.
 
 ##  Task (4)
 `flag{4_m3d10cr3_m4lw4r3_ch4ll3nge}`
