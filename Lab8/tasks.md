@@ -16,22 +16,22 @@ The memory dump can be downloaded from https://drive.google.com/file/d/1Gm7huRq0
 
 
 ##  Flag 1 :
-As the hint suggesed that it may be copied in the clipboard. So, I tried "clipboard" flag and found the flag.
+As the hint suggesed that it may be copied in the clipboard. So, I tried `"clipboard"` option and found the flag.
 ![clip](https://user-images.githubusercontent.com/123714177/230758658-5bc7286d-376c-4cf4-919a-e9f6d23955b5.png)
 
 
 
 ##  Flag 2 :
-For this flag, we have to check the browser history. I skim the flag options to find any relatable flag but I could not find as there were a lot of options. Then, I tried grep command and search for the string "history" and fortunately found "iehistory" flag.
+For this flag, we have to check the browser history. I skim the flag options to find any relatable flag but I could not find as there were a lot of options. Then, I tried grep command and search for the string "history" and fortunately found `"iehistory"` option.
 ![history](https://user-images.githubusercontent.com/123714177/230760222-5f2bc402-1f0b-4e7b-b6a2-b1fac7428afc.png)
 
-I used the "iehistory" and found the flag.
+I used the `"iehistory"` and found the flag.
 ![iehistory](https://user-images.githubusercontent.com/123714177/230760493-62ce108e-b969-4664-9464-b7cf74314269.png)
 
 
 
 ##  Flag 3 :
-Again, it was hinted to check environment variables. So, I used "envars" flag and found the flag.
+Again, it was hinted to check environment variables. So, I used `"envars"` option and found the `flag`.
 ![envars](https://user-images.githubusercontent.com/123714177/230759100-1aa7108e-e25e-411a-b8e0-d286cf25949e.png)
 
 
@@ -57,12 +57,12 @@ I had found that an MAPaint process was running when the mem dump was taken but 
 So, I got the process id by using `pstree` 
 ![t5id](https://user-images.githubusercontent.com/123714177/232128473-8c9af987-60b5-4b84-b608-240cc1906866.png)
 
-Then, I took the of the process using following command :   
+Then, I took the `memdump` of the process using following command :   
 `python2 vol.py -f /home/udemy/volatility/memdump_challenge.mem --profile Win7SP1x64 memdump -p 2768 -D out`   
 (I had created a directory named `out` before running the above command)
 ![t5dmp](https://user-images.githubusercontent.com/123714177/232128465-0f8ba507-1346-4c22-8a08-1b6cac510dbf.png)
 
-Then, I renamed the file and add the `.data` extension.
+Then, I renamed the file and add the `.data` extension.   
 ![t5rename](https://user-images.githubusercontent.com/123714177/232128475-42a1c554-e4d0-4fde-b22e-9233cf34cb75.png)
 
 
