@@ -46,9 +46,26 @@ I used cyberchef to deccode the string and found the flag.
 
 
 ##  Flag 5 :
-The hint says that it may be drawn using MSPaint. So, I tried searching for the word "paint" in the help section lol. Of course I could not find anything. Then, I search for another words like "MS" and "objects" and I found an option to find file objects using "filescan" flag.
+The hint says that it may be drawn using MSPaint. So, I tried searching for the word "paint" in the help section lol. Of course, I could not find anything. Then, I search for another words like "MS" and "objects" and I found an option to find file objects using "filescan" flag.
 ![filescan](https://user-images.githubusercontent.com/123714177/230768379-5d6a9629-593e-4bdc-bdfe-13fdee2422ac.png)
 
 Then, I used "filescan" and grep command to search for the word "paint" and found these three files.
 ![paintFiles](https://user-images.githubusercontent.com/123714177/230768504-c83caa5e-ca99-419e-a7a0-eb22eab24569.png)
+
+I had found that an MAPaint process was running when the mem dump was taken but I had no idea how to open an image. So, I searched in the Google and found out that we can analyze a `dmp file` using `GIMP`.
+
+So, I got the process id by using `pstree` 
+![t5id](https://user-images.githubusercontent.com/123714177/232128473-8c9af987-60b5-4b84-b608-240cc1906866.png)
+
+Then, I took the of the process using following command :   
+`python2 vol.py -f /home/udemy/volatility/memdump_challenge.mem --profile Win7SP1x64 memdump -p 2768 -D out`   
+(I had created a directory named `out` before running the above command)
+![t5dmp](https://user-images.githubusercontent.com/123714177/232128465-0f8ba507-1346-4c22-8a08-1b6cac510dbf.png)
+
+Then, I renamed the file and add the `.data` extension.
+![t5rename](https://user-images.githubusercontent.com/123714177/232128475-42a1c554-e4d0-4fde-b22e-9233cf34cb75.png)
+
+
+Finally, I opened that raw data using `GIMP` and after adjusting `offset` `width`, `height` for about 2-3 days :( I finally found te `flag`.
+![t5flaggg](https://user-images.githubusercontent.com/123714177/232122804-2ed39b30-d6b8-4189-9c5c-b7e66601554b.png)
 
