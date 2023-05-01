@@ -30,9 +30,12 @@ You can download the container image inside the tar archive from here[https://gi
 
 ## Flag 1:
 `flag{th1s_w4s_4n_34sy_0n3}`   
-I extracted `layer.tar` which was placed in the first folder named `27e0b1ed433ce34a49a3c82c08fcf171910dff9ecf6470cd5d48de3e865302f3` and got a file named `flag1.txt`
-![f1_extracted](https://user-images.githubusercontent.com/123714177/235437515-ca23ada3-1c60-4940-8535-a0e59abd647e.png)  
+I extracted `layer.tar` which was placed in the first folder named `27e0b1ed433ce34a49a3c82c08fcf171910dff9ecf6470cd5d48de3e865302f3` and got a file named `flag1.txt`   
+
+![f1_extracted](https://user-images.githubusercontent.com/123714177/235437515-ca23ada3-1c60-4940-8535-a0e59abd647e.png)    
+
 And I found the flag inside that `flag1.txt` file.
+
 
 ## Flag 2:
 ``
