@@ -26,3 +26,23 @@ You can download the container image inside the tar archive from here[https://gi
 
 
 ## FLAGS 
+
+
+## Flag 1:
+`flag{th1s_w4s_4n_34sy_0n3}`
+
+
+## Flag 2:
+``
+
+
+## Flag 3:
+``
+
+
+## Flag 4:
+``
+
+
+## Flag 5:
+``
