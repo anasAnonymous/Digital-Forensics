@@ -41,7 +41,8 @@ And I found the flag inside that `flag1.txt` file.
 `flag{c0ngr4ts_0n_f1nd1ng_th3_n0t_s0_w3ll_h1dd3n_s3cr3t}`   
 I extracted `layer.tar` which was placed in the folder named `78f5e7ff9b9409eaadf09d30285307e4f88f792209ba718b4104bb3767d40fbf` and got another folder named `var` then another folder named `log` and then inside that folder a file named `secret.txt` was placed.    
 
-I found a string inside `secret.txt`.
+
+I found a string inside `secret.txt`.    
 ![fl2_secretTxt](https://user-images.githubusercontent.com/123714177/235438926-b242cdb7-2909-4aa2-a423-e981712cd39d.png)   
 
 I decoded that using `cyberchef` and found the `flag`.    
@@ -55,7 +56,7 @@ I extracted `layer.tar` which was placed in the folder named `78323bfdc56789ddb0
 ![fl3_fl2P2](https://user-images.githubusercontent.com/123714177/235440346-28bc12f5-f3e1-4af6-93f5-65025b42369b.png)
 
 
-I opened the file `flag2-part2.txt` and found `2nd part` of the flag.    
+I opened the file `flag2-part2.txt` and found the `2nd part` of the flag.    
 ![fl3fl2_2](https://user-images.githubusercontent.com/123714177/235440592-6c33e239-f165-4929-afc7-deb94adb8190.png)    
 
 
@@ -65,7 +66,7 @@ For that, I extracted `layer.tar` which was placed in the folder named `2336840b
 ![fl3_fl2P1](https://user-images.githubusercontent.com/123714177/235440355-e164b3a5-892b-4204-a8d5-a88c5c0b6eac.png)      
 
 
-I opened the file `flag2-part1.txt` and found `1st part` of the flag as well.    
+I opened the file `flag2-part1.txt` and found the `1st part` of the flag as well.    
 ![fl3_fl2P1](https://user-images.githubusercontent.com/123714177/235440635-d4fca7b3-ea26-421c-b335-4a1dbab2f02c.png)    
 
 
