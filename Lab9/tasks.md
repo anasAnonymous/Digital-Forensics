@@ -73,7 +73,7 @@ I opened the file `flag2-part1.txt` and found the `1st part` of the flag as well
 ## Flag 4:
 `flag{3nv1r0nm3nt_v4r1abl3s_1ns1d3_c0nta1n3rs}`  
 
-I opened the file named "27b200a787553581f1a9e42556052f7e38113539224093834b7f48a03693c879.json"    
+I opened the file named "27b200a787553581f1a9e42556052f7e38113539224093834b7f48a03693c879.json"     
 ![f4_f5](https://github.com/anasAnonymous/Digital-Forensics/assets/123714177/47eedf94-efd4-44c6-9701-62df88628ba5)    
 
 I found the flag inside the file.   
