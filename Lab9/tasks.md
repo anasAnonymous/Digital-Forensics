@@ -87,4 +87,5 @@ I opened the file named "27b200a787553581f1a9e42556052f7e38113539224093834b7f48a
 ![f4_f5](https://github.com/anasAnonymous/Digital-Forensics/assets/123714177/47eedf94-efd4-44c6-9701-62df88628ba5)    
 
 I found the flag inside the file.   
-![f5](https://github.com/anasAnonymous/Digital-Forensics/assets/123714177/25f1dcf4-28c7-4997-9d57-82838db980ce)
+![f5](https://github.com/anasAnonymous/Digital-Forensics/assets/123714177/96d61ec0-2d5f-4807-b035-758389aabefa)
+
