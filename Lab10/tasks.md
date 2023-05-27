@@ -50,7 +50,7 @@ This was the command I used to crack the hash:
 
 # HASH-5.     
 `7484c9a3d50e649f50411c58317eb7c6c6e506a94b04ebb87dd8715ce16de0d8e41a4894f9be4bbc7dbc204e1f7103e7b75844f78ce288f89befdfb53f9f5ac8`    
-I used `hash-identifier` to identify the type of hash and I found out that it was a `` hash.
+I used `hash-identifier` to identify the type of hash and I found out that it was a `SHA-512` hash.
 ![hashId5](https://github.com/anasAnonymous/Digital-Forensics/assets/123714177/8cb27878-2c0b-448f-b6de-dbb4596864b4)
 
   
