@@ -11,8 +11,12 @@ I used `-m 0` for `MD5`.
 
 2. `0458ce29e1b0edb36665db68dc96f976dbce98a54696376d7297fce33e56de171d2d7f1ceaa9cbc74dd948c6d13a80dc0d2239ab5abe5f74e4506c9683f13fa7`    
  
-I used `hash-identifier` to identify the type of hash and I found out that it was a `` hash.
-![hashId2](https://github.com/anasAnonymous/Digital-Forensics/assets/123714177/aff7fc9e-283b-4ca1-8396-b9fea016b875)
+I used `hash-identifier` to identify the type of hash and I found out that it was a `sha512` hash.
+![hashId2](https://github.com/anasAnonymous/Digital-Forensics/assets/123714177/aff7fc9e-283b-4ca1-8396-b9fea016b875)     
+I used `hashcat` with  `--increment` option but no luck as no hint was given. It was taking too much time and showing the status as exhausted.        
+Then, I deecided to use `john` and this was the command I used:    
+`john --wordlist=/usr/share/wordlists/rockyou.txt h2.txt --format=RAW-sha512`    
+![h2](https://github.com/anasAnonymous/Digital-Forensics/assets/123714177/2e8ca695-1f72-4b15-a8fa-ddfc7e9bb46e)     
  
 
 
@@ -31,6 +35,11 @@ I searched for the hash mode for `SHA-256` in hashcat help manual and it was `14
 
 
 4. `$6$sup3rstr0ngs4lt$fZt5XYt.hdLFCs7YOlSIXT.0cDaNIhtP5QdDRdYP6OD349oD8hR9mEYueBRxaSAEHtAJ85wYYNyEELJkb0QSW1`    
+I tried `hash-identifier` to identify the type of hash but it was unable to guess the hash type. So, I used an online `hash identifier` and found out that it was a `sha512crypt` hash.    
+![hashId4](https://github.com/anasAnonymous/Digital-Forensics/assets/123714177/5e60ffc1-377b-4a88-a93a-45ad93e02935)    
+
+`john --wordlist=/usr/share/wordlists/rockyou.txt hhh4.txt --format=sha512crypt`     
+![h4](https://github.com/anasAnonymous/Digital-Forensics/assets/123714177/0d6b6d5f-15ae-4b18-83c1-e84083f59d23)
 
 
 
