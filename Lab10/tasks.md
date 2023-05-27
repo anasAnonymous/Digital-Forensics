@@ -1,4 +1,5 @@
 1. `48bb6e862e54f2a795ffc4e541caed4d`   
+I used `hash-identifier` to identify the type of hash and I found out that it is a `MD5` hash.
 ![hashId1](https://github.com/anasAnonymous/Digital-Forensics/assets/123714177/2c1f3a33-463e-4e99-81d4-55bfef0ec8c7)
 
 
