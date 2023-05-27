@@ -10,7 +10,8 @@ I used `-m 0` for `MD5`.
 
 
 # HASH-2. 
-`0458ce29e1b0edb36665db68dc96f976dbce98a54696376d7297fce33e56de171d2d7f1ceaa9cbc74dd948c6d13a80dc0d2239ab5abe5f74e4506c9683f13fa7` ----------------------------------------------------------------------------------------------------------------------------------
+`0458ce29e1b0edb36665db68dc96f976dbce98a54696376d7297fce33e56de171d2d7f1ceaa9cbc74dd948c6d13a80dc0d2239ab5abe5f74e4506c9683f13fa7`    
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
  
 I used `hash-identifier` to identify the type of hash and I found out that it was a `sha512` hash.
 ![hashId2](https://github.com/anasAnonymous/Digital-Forensics/assets/123714177/aff7fc9e-283b-4ca1-8396-b9fea016b875)     
