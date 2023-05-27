@@ -2,7 +2,7 @@
 I used `hash-identifier` to identify the type of hash and I found out that it was a `MD5` hash.
 ![hashId1](https://github.com/anasAnonymous/Digital-Forensics/assets/123714177/2c1f3a33-463e-4e99-81d4-55bfef0ec8c7)     
 
-This was the command I used:     
+This was the command I used to crack the hash:     
 `hashcat -a 3 -m 0 48bb6e862e54f2a795ffc4e541caed4d --show`    
 
 I used `-m 0` for `MD5`.    
@@ -38,6 +38,7 @@ I searched for the hash mode for `SHA-256` in hashcat help manual and it was `14
 I tried `hash-identifier` to identify the type of hash but it was unable to guess the hash type. So, I used an online `hash identifier` and found out that it was a `sha512crypt` hash.    
 ![hashId4](https://github.com/anasAnonymous/Digital-Forensics/assets/123714177/5e60ffc1-377b-4a88-a93a-45ad93e02935)    
 
+This was the command I used to crack the hash:   
 `john --wordlist=/usr/share/wordlists/rockyou.txt hhh4.txt --format=sha512crypt`     
 ![h4](https://github.com/anasAnonymous/Digital-Forensics/assets/123714177/0d6b6d5f-15ae-4b18-83c1-e84083f59d23)
 
